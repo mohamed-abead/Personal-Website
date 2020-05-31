@@ -1,5 +1,7 @@
+$color: green;
+
 h1, h2 {
-  color: blue;
+color: blue;
 }
 
 #header1 {
@@ -11,17 +13,17 @@ h1, h2 {
 }
 
 #contact:hover {
-  background-color: green;
+background-color: $color;
 }
 
 @media (min-width: 1000px) {
-  body {
-    background-color: yellow;
+  body{
+      background-color: yellow;
   }
 }
 
 @media (max-width: 900px) {
-  body {
+  body{
     background-color: blue;
   }
 }
