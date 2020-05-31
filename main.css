@@ -1,0 +1,19 @@
+h1, h2 {
+  color: blue;
+}
+
+#contact:hover {
+  background-color: green;
+}
+
+@media (min-width: 1000px) {
+  body {
+    background-color: yellow;
+  }
+}
+
+@media (max-width: 900px) {
+  body {
+    background-color: blue;
+  }
+}
