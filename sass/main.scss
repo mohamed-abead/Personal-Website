@@ -10,20 +10,42 @@ color: blue;
   background-position: center;
   background-size: cover;
   height: 350px;
+  position: relative;
 }
 
 #contact:hover {
 background-color: $color;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 992px) {
   body{
-      background-color: yellow;
+      background-color: #2176DB;
+  }
+
+  .btHeader {
+    margin-left: 30px;
+    left:200px;
+    top: 340px;
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 991px) {
   body{
     background-color: blue;
+  }
+
+  .btHeader {
+    margin-right: 10px;
+    left:20px;
+    top: 270px;
+  }
+}
+
+@media (max-width: 576px) {
+
+  .btHeader {
+    left: 0px;
+    margin-right: 10px;
+    top: 230px;
   }
 }
