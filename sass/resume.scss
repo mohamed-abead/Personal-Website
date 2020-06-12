@@ -1,0 +1,137 @@
+$color: rgb(221, 221, 221);
+$lineColor: rgb(221, 221, 221);
+$fontColor: #2b2b2b;
+$bgColor1: #2b2b2b;
+$bgColor2: #2b2b2b;
+$yearBgColor: #2b2b2b;
+$greyC: #2b2b2b;
+$whiteC: rgb(221, 221, 221);
+
+$breakpoint: 576px;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Gloria+Hallelujah&family=Pacifico&family=Roboto&display=swap');
+
+@font-face {
+  font-family: BaskervilleFull;
+  src: url(baskerville-italic.woff);
+  font-style: italic;
+}
+
+#header1 {
+  background-image: url("bck.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 45vh;
+  position: relative;
+}
+
+.coverpdf {
+  width:100%;
+  height: 160vh;
+  background-color: $greyC;
+}
+
+.elpdf {
+  width: 70%;
+  margin-left: 15vw;
+  height: 130vh;
+  margin-top: 20px;
+}
+
+.he1 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 3rem;
+  font-family: 'Damion', monospace;
+}
+
+.contact {
+  background-color: $whiteC;
+  padding-bottom: 2vw;
+}
+
+.contact .he1 {
+  color: $greyC;
+}
+
+.icon1 {
+  margin-left: 5vw;
+  color: $greyC;
+}
+
+.material-icons {
+  margin-left: 4.7vw;
+  color: $greyC;
+  margin-top: 5px;
+}
+
+.contact a {
+  padding: 5px;
+  color: $greyC;
+}
+.contact a:hover{
+  text-decoration: underline blue;
+}
+
+.footer {
+  background-color: $greyC;
+}
+
+.footer .material-icons {
+  color: $whiteC;
+}
+
+.fwd {
+  width:50vw;
+  position: relative;
+  left:30%;
+}
+
+.ffic {
+  font-size: 2rem;
+  padding-left: 5vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  color: $whiteC;
+}
+
+@media (min-width: 992px) {
+  .btHeader {
+    margin-left: 35px;
+    top: 44vh;
+  }
+  #btns {
+    margin-left: 20vw;
+  }
+}
+
+@media (max-width: 991px) {
+  .btHeader {
+    margin-right: 10px;
+    left: 20px;
+    top: 24vh;
+  }
+  #btns {
+    margin-left: 20vw;
+  }
+  .btn-outline-light {
+    color: red;
+    border: 1px solid red;
+  }
+
+  .he1 {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .btHeader {
+    left: 0px;
+    margin-right: 10px;
+    top: 16vh;
+  }
+
+}
