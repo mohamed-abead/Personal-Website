@@ -67,13 +67,67 @@
   width: 100%;
 }
 
-#ed1 h1 {
-  color: #2b2b2b;
+.he1 {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 10px;
   font-size: 3rem;
   font-family: 'Damion', monospace;
+}
+
+#ed1 .he1 {
+  color: #2b2b2b;
+}
+
+.contact {
+  background-color: #2b2b2b;
+  padding-bottom: 2vw;
+}
+
+.contact .he1 {
+  color: #dddddd;
+}
+
+.icon1 {
+  margin-left: 5vw;
+  color: #dddddd;
+}
+
+.material-icons {
+  margin-left: 4.7vw;
+  color: #dddddd;
+  margin-top: 5px;
+}
+
+.contact a {
+  padding: 5px;
+  color: #dddddd;
+}
+
+.contact a:hover {
+  text-decoration: underline blue;
+}
+
+.footer {
+  background-color: #dddddd;
+}
+
+.footer .material-icons {
+  color: #2b2b2b;
+}
+
+.fwd {
+  width: 50vw;
+  position: relative;
+  left: 30%;
+}
+
+.ffic {
+  font-size: 2rem;
+  padding-left: 5vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  color: #2b2b2b;
 }
 
 @media (min-width: 992px) {
@@ -100,11 +154,11 @@
     border: 1px solid red;
   }
   .introP {
-    height: 540px;
+    height: 520px;
   }
   .introP .box {
     height: 420px;
-    margin-top: 60px;
+    margin-top: 40px;
   }
   .introP h1 {
     font-size: 2.8rem;
@@ -112,7 +166,7 @@
   .introP p {
     font-size: 1.35rem;
   }
-  #ed1 h1 {
+  .he1 {
     padding-top: 20px;
   }
 }
@@ -122,6 +176,9 @@
     left: 0px;
     margin-right: 10px;
     top: 16vh;
+  }
+  .introP {
+    height: 490px;
   }
   .introP .box {
     height: 420px;
