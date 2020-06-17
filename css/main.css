@@ -8,10 +8,12 @@
 
 #header1 {
   background-image: url("../img/bck.jpg");
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 45vh;
+  height: 30vh;
   position: relative;
 }
 
@@ -24,7 +26,7 @@
 .introP .box {
   width: 70vw;
   border: 2px solid #dddddd;
-  margin-top: 70px;
+  margin-top: 50px;
   margin-left: 15vw;
   margin-bottom: 50px;
 }
@@ -144,7 +146,7 @@
 @media (min-width: 992px) {
   .btHeader {
     margin-left: 35px;
-    top: 44vh;
+    top: 23vh;
   }
   #btns {
     margin-left: 20vw;
@@ -155,15 +157,15 @@
   .btHeader {
     margin-right: 10px;
     left: 20px;
-    top: 24vh;
+    top: 10vh;
   }
   #btns {
     margin-left: 20vw;
   }
-  .btn-outline-light {
+  /*.btn-outline-light {
     color: red;
     border: 1px solid red;
-  }
+  }*/
   .introP .box {
     margin-top: 40px;
   }
@@ -182,7 +184,7 @@
   .btHeader {
     left: 0px;
     margin-right: 10px;
-    top: 16vh;
+    top: 2vh;
   }
   .introP h1 {
     font-size: 2.5rem;
