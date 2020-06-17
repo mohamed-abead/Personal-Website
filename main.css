@@ -164,11 +164,7 @@
     color: red;
     border: 1px solid red;
   }
-  .introP {
-    height: 520px;
-  }
   .introP .box {
-    height: 420px;
     margin-top: 40px;
   }
   .introP h1 {
@@ -187,12 +183,6 @@
     left: 0px;
     margin-right: 10px;
     top: 16vh;
-  }
-  .introP {
-    height: 490px;
-  }
-  .introP .box {
-    height: 420px;
   }
   .introP h1 {
     font-size: 2.5rem;
