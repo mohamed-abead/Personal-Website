@@ -24,7 +24,7 @@
   width: 70%;
   margin-left: 15vw;
   height: 130vh;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .he1 {
@@ -47,6 +47,7 @@
 .icon1 {
   margin-left: 5vw;
   color: #2b2b2b;
+  font-size: 1rem;
 }
 
 .material-icons {
@@ -73,9 +74,7 @@
 }
 
 .fwd {
-  width: 50vw;
-  position: relative;
-  left: 30%;
+  text-align: center;
 }
 
 .ffic {
@@ -86,38 +85,10 @@
   color: #dddddd;
 }
 
-@media (min-width: 992px) {
-  .btHeader {
-    margin-left: 35px;
-    top: 44vh;
-  }
-  #btns {
-    margin-left: 20vw;
-  }
+.icon2 {
+  color: #dddddd;
 }
 
-@media (max-width: 991px) {
-  .btHeader {
-    margin-right: 10px;
-    left: 20px;
-    top: 24vh;
-  }
-  #btns {
-    margin-left: 20vw;
-  }
-  .btn-outline-light {
-    color: red;
-    border: 1px solid red;
-  }
-  .he1 {
-    padding-top: 20px;
-  }
-}
-
-@media (max-width: 576px) {
-  .btHeader {
-    left: 0px;
-    margin-right: 10px;
-    top: 16vh;
-  }
+.cpyr {
+  color: #dddddd;
 }

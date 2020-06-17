@@ -9,7 +9,7 @@ $whiteC: rgb(221, 221, 221);
 
 $breakpoint: 576px;
 
-
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Damion&family=Gloria+Hallelujah&family=Pacifico&family=Roboto&display=swap');
 
 @font-face {
@@ -68,6 +68,7 @@ $breakpoint: 576px;
   font-size: 3.5em;
 }
 
+/*Gloria Hallelujah*/
 .introP p {
   padding: 15px;
   font-family: 'Gloria Hallelujah', cursive;
@@ -131,9 +132,7 @@ $breakpoint: 576px;
 }
 
 .fwd {
-  width:50vw;
-  position: relative;
-  left:30%;
+  text-align: center;
 }
 
 .ffic {
@@ -142,6 +141,18 @@ $breakpoint: 576px;
   padding-top: 2vw;
   padding-bottom: 2vw;
   color: $greyC;
+}
+
+.icon2 {
+  color: $greyC;
+}
+
+.cpyr {
+  text-align: center;
+}
+
+.cpyr p {
+  font-family: 'Damion', monospace;
 }
 
 @media (min-width: 992px) {
@@ -215,8 +226,10 @@ $breakpoint: 576px;
 }
 
 
-
+/*********************/
 /* Education Timeline*/
+
+
 .timeline {
   position: relative;
   padding: 1rem;
@@ -335,3 +348,6 @@ $breakpoint: 576px;
   margin: .5rem 0 0;
   color: $greyC;
 }
+
+/* Education timeline end*/
+/*************************/

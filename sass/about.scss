@@ -1,36 +1,40 @@
-@font-face {
-  font-family: BaskervilleFull;
-  src: url(baskerville-italic.woff);
-  font-style: italic;
+$greyC: #2b2b2b;
+$whiteC: rgb(221, 221, 221);
+
+$breakpoint: 576px;
+
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Gloria+Hallelujah&family=Pacifico&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+
+.aboutme {
+  background-color: $whiteC;
+  display: inline-block;
+  width: 100%;
+  padding-top: 50px;
 }
 
-body {
-  background-color: #2176DB;
-}
-
-#header1 {
-  background-image: url("bck.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 45vh;
-  position: relative;
-}
-
-#ed1 {
-  width: auto;
-  background-color: #2b2b2b;
-  height: 580px;
-}
-
-#ed1 h1 {
-  color: #dddddd;
-  text-align: center;
-  padding-top: 60px;
-  font-family: BaskervilleFull;
+.aboutme h1 {
+  font-family: 'Damion', cursive;
   text-decoration: underline;
 }
 
+.aboutme h1, p {
+  color: $greyC;
+  text-align: center;
+}
+
+
+@media (max-width: 991px) {
+  .btn-outline-light {
+    color: red;
+    border: 1px solid red;
+  }
+}
+
+
+/* Responsiveness to different screens */
+/***************************************/
 @media (min-width: 992px) {
   .btHeader {
     margin-left: 35px;
@@ -50,12 +54,9 @@ body {
   #btns {
     margin-left: 20vw;
   }
-  .btn-outline-light {
+  .btn-outline-dark {
     color: red;
     border: 1px solid red;
-  }
-  #ed1 h1 {
-    padding-top: 20px;
   }
 }
 
@@ -65,135 +66,4 @@ body {
     margin-right: 10px;
     top: 16vh;
   }
-}
-
-
-
-
-$color: rgb(221, 221, 221);
-$lineColor: rgb(221, 221, 221);
-$fontColor: rgb(221, 221, 221);
-$bgColor1: #2b2b2b;
-$bgColor2: #2b2b2b;
-$yearBgColor: #2b2b2b;
-
-$breakpoint: 576px;
-
-.timeline {
-  position: relative;
-  padding: 1rem;
-  margin: 0 auto;
-  max-width: 1300px;
-
-  &:before {
-    content: '';
-    position: absolute;
-    height: 100%;
-    border: 1px solid $lineColor;
-    right: 40px;
-    top: 0;
-  }
-
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  @media screen and (min-width: $breakpoint) {
-    padding: 2rem;
-    &:before {
-      left: calc(50% - 1px);
-      right: auto;
-    }
-  }
-}
-
-.timeline__item {
-
-  padding: 1rem;
-  border: 2px solid $lineColor;
-  border-image: linear-gradient(to right, $color 0%, $lineColor 100%);
-  border-image-slice: 1;
-  position: relative;
-  margin: 1rem 3rem 1rem 1rem;
-  clear: both;
-
-  &:after,
-  &:before {
-    content: '';
-    position: absolute;
-  }
-
-  &:before {
-    right: -10px;
-    top: calc(50% - 5px);
-    border-style: solid;
-    border-color: $lineColor $lineColor transparent transparent;
-    border-width: 10px;
-    transform: rotate(45deg);
-  }
-
-  @media screen and (min-width: $breakpoint) {
-    width: 44%;
-    margin: 1rem;
-
-    &:nth-of-type(2n) {
-      float: right;
-      margin: 1rem;
-      border-image: linear-gradient(to right, $lineColor 0%, $color 100%);
-      border-image-slice: 1;
-
-      &:before {
-        right: auto;
-        left: -10px;
-      border-color:transparent transparent $lineColor $lineColor;
-      }
-    }
-  }
-}
-
-.timeline__item--year {
-    text-align: center;
-  max-width: 150px;
-  margin: 0 48px 0 auto;
-  font-size: 1.8rem;
-  background-color: $yearBgColor;
-  line-height: 1;
-  border-image: none;
-  padding: .5rem 1rem 1rem;
-  color: rgb(221, 221, 221);
-
-  &:before {
-    display: none;
-  }
-
-  @media screen and (min-width: $breakpoint) {
-    text-align: center;
-      margin: 0 auto;
-
-    &:nth-of-type(2n) {
-      float: none;
-      margin: 0 auto;
-      border-image: none;
-
-      &:before {
-        display: none;
-      }
-    }
-  }
-}
-
-.timeline__title {
-  margin: 0;
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.5em;
-  color: rgb(221, 221, 221);
-}
-
-.timeline__blurb {
-  line-height: 1.5;
-  font-size: 1rem;
-  margin: .5rem 0 0;
-  color: $fontColor;
 }

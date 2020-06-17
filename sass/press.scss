@@ -1,21 +1,38 @@
-@import url("https://fonts.googleapis.com/css2?family=Damion&family=Gloria+Hallelujah&family=Pacifico&family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap");
-.aboutme {
-  background-color: #dddddd;
-  display: inline-block;
-  width: 100%;
+$greyC: #2b2b2b;
+$whiteC: rgb(221, 221, 221);
+
+$breakpoint: 576px;
+
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Gloria+Hallelujah&family=Pacifico&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+.awards {
+  background-color: $whiteC;
   padding-top: 50px;
 }
 
-.aboutme h1 {
-  font-family: 'Damion', cursive;
+.awards div {
+  padding-bottom: 50px;
+}
+
+.awards h2 {
   text-decoration: underline;
 }
 
-.aboutme h1, p {
-  color: #2b2b2b;
-  text-align: center;
+.rounded {
+  max-height: 400px;
+  width: auto;
 }
+
+.awards h2, p {
+  font-family: 'Comfortaa', cursive;
+  color: $greyC;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
 
 @media (max-width: 991px) {
   .btn-outline-light {
@@ -23,6 +40,7 @@
     border: 1px solid red;
   }
 }
+
 
 /* Responsiveness to different screens */
 /***************************************/
