@@ -1,0 +1,32 @@
+ul, li {
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style-type: none;
+}
+
+.liitem {
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  flex-flow: wrap;
+}
+
+.wbox {
+  width: 30vw;
+  height: 30vh;
+  background-color: white;
+  padding-left: 200px;
+}
+
+#liitem1 {
+  background-image: url("../img/babyme.jpg");
+}
+
+#liitem2 {
+  background-image: url("../img/voda.jpg");
+}
