@@ -40,6 +40,26 @@ ul, li {
   background-image: url("../img/jan25.jpg");
 }
 
+#liitem3 {
+  background-image: url("../img/meccano.jpg");
+}
+
+#liitem4 {
+  background-image: url("../img/NIS.jpg");
+}
+
+#liitem5 {
+  background-image: url("../img/richard.jpg");
+}
+
+#liitem6 {
+  background-image: url("../img/Glove.jpg");
+}
+
+#liitem7 {
+  background-image: url("../img/roz.jpg");
+}
+
 .wbox h2, p {
   text-align: center;
 }

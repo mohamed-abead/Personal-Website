@@ -47,6 +47,26 @@ ul, li {
   background-image: url("../img/jan25.jpg");
 }
 
+#liitem3 {
+  background-image: url("../img/meccano.jpg");
+}
+
+#liitem4 {
+  background-image: url("../img/NIS.jpg");
+}
+
+#liitem5 {
+  background-image: url("../img/richard.jpg");
+}
+
+#liitem6 {
+  background-image: url("../img/Glove.jpg");
+}
+
+#liitem7 {
+  background-image: url("../img/roz.jpg");
+}
+
 .wbox h2, p {
   text-align: center;
 }
@@ -60,4 +80,18 @@ ul, li {
   font-family: 'Comfortaa', cursive;
   font-size: 0.9rem;
   padding-top: 10px;
+}
+
+
+
+@media (min-width: 992px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 576px) {
+
 }
