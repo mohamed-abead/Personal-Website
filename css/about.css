@@ -74,3 +74,16 @@ ul, li {
   font-size: 0.9rem;
   padding-top: 10px;
 }
+
+@media (max-width: 991px) {
+  .wbox {
+    width: 45vw;
+  }
+}
+
+@media (max-width: 576px) {
+  .wbox {
+    width: 70vw;
+    float: center;
+  }
+}
