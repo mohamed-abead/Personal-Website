@@ -1,32 +1,126 @@
-ul, li {
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Damion&family=Gloria+Hallelujah&family=Pacifico&family=Roboto&display=swap");
+p {
   margin: 0;
-  padding: 0;
-  border: none;
-  list-style-type: none;
 }
 
-.liitem {
+.expb {
+  background-color: #e5c08e;
+  display: flex;
   width: 100%;
-  height: 100vh;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+}
+
+.expbox {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
   display: block;
-  flex-flow: wrap;
 }
 
-.wbox {
-  width: 30vw;
-  height: 30vh;
-  background-color: white;
-  padding-left: 200px;
+.resbtn {
+  text-align: center;
+  margin: 30px;
 }
 
-#liitem1 {
-  background-image: url("../img/babyme.jpg");
+.resbtn h2 {
+  font-family: "Pacifico", sans-serif;
+  text-decoration: underline;
 }
 
-#liitem2 {
-  background-image: url("../img/voda.jpg");
+.expbox button {
+  display: flex;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  font-size: 2.5rem;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: black;
+  border: 1px solid black;
+  font-family: 'Damion', sans-serif;
+}
+
+.expbox button:hover {
+  color: #e5c08e;
+  background-color: black;
+}
+
+.titleH {
+  color: black;
+  font-style: oblique;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.org {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.cBlock {
+  display: block;
+  width: 100%;
+}
+
+.st {
+  font-weight: bold;
+}
+
+.orgN {
+  display: inline-block;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.orgCity {
+  display: inline-block;
+  text-align: left;
+  font-weight: lighter;
+  font-size: 1rem;
+}
+
+.role {
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.timing {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+.cntn {
+  display: inline-block;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.footer {
+  background-color: #e5c08e;
+}
+
+@media (max-width: 576px) {
+  .expbox {
+    width: 85%;
+  }
+  .titleH {
+    font-size: 1.7rem;
+  }
+  .orgN {
+    font-size: 1.2rem;
+  }
+  .role {
+    font-size: 0.9rem;
+  }
+  .orgCity .timing .cntn {
+    font-size: 0.7rem;
+  }
 }
