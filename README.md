@@ -1,2 +1,3 @@
 # project0
-project0 of CS50 Web course
+
+This is my personal website, which acts as a detailed, graphic resume. I developed this project using HTML, CSS, and Bootstrap. 
