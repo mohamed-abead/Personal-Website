@@ -99,6 +99,7 @@ ul, li {
 @media (max-width: 576px) {
   .wbox {
     width: 70vw;
-    float: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
